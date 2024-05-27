@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страницы истории</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" href="../img/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header id="header" class="page-header">
+        <div class="header-content container">
+            <nav class="header-navigation">
+                <input type="checkbox" id="burger-checkbox">
+                <label for="burger-checkbox" class="burger-menu">
+                    <span class="navigation__burger__item"></span>
+                </label>
+                <ul class="header-menu">
+                    <li><a class="header-item underline-item" href="../index.html">Главная</a></li>
+                    <li><a class="header-item underline-item" href="council.html">Проекты и мероприятия</a></li>
+                    <li><a class="header-item underline-item" href="country.html">Наши земляки</a></li>
+                    <li><a class="header-item underline-item" href="history.html">Страницы истории</a></li>
+                    <li><a class="header-item underline-item" href="photo.html">Фотогалерея</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="council_list">
+            <div class="coumcil_list_content container">
+                <ul class="council_list_items">
+                    <li> <a href="#" class="council_list_item" onclick="toggleContent('history_college')">История
+                            колледжа</a>
+                    </li>
+                    <li> <a href="#" class="council_list_item" onclick="toggleContent('razduvalov')">Династия
+                            Раздуваловых</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="history_college toggle" id="history_college" style="display: block;">
+            <div class="history_college container">
+                <h2>История колледжа</h2>
+                <section>
+                    <div class="history-container">
+                        <div class="history-info">
+                            <div class="history-description">
+                                <p>19 ноября 1919 года по инициативе комсомольской организации Ивановского
+                                    железнодорожного узла была организована железнодорожная школа ученичества. Ее
+                                    задачей являлась подготовка квалифицированных специалистов по ремонту паровозов.</p>
+                            </div>
+                            <div class="history-image">
+                                <img src="../img/history/Училище деревянное здание 50-60 гг..jpg"
+                                    alt="Училище деревянное здание">
+                            </div>
+                        </div>
+                        <div class="history-info">
+                            <div class="history-description">
+                                <p>В июле 1920 года правительством РСФСР был подписан декрет, цель которого –
+                                    ликвидировать техническую неграмотность рабочих и удовлетворить острую потребность
+                                    промышленности в квалифицированной рабочей силе. Этот декрет послужил толчком к
+                                    развитию всех форм профессионально-технического образования.</p>
+                            </div>
+                            <div class="history-image">
+                                <img src="../img/history/Декрет СНК.jpg" alt="Декрет СНК">
+                            </div>
+                        </div>
+                        <div class="history-info">
+                            <div class="history-description">
+                                <p>В годы войны мы были школой фабрично-заводского обучения № 15. В связи с реформой
+                                    образования и созданием в 1940 году он темы Трудовых резервов СССР, в предчувствии
+                                    надвигающейся войны, срок обучения был сокращен от 2 лет до 6 месяцев. </p>
+                            </div>
+                            <div class="history-image">
+                                <img src="../img/history/ФЗУ.JPG" alt="ФЗУ">
+                            </div>
+                        </div>
+                        <div class="history-info">
+                            <div class="history-description">
+                                <p>В 1969 году имя Героя Советского Союза Павла Андреевича Дельцова было присвоено
+                                    Профессиональному лицею № 1 г. Иваново, на здании установлена мемориальная доска.
+                                </p>
+                            </div>
+                            <div class="history-image">
+                                <img src="../img/history/Дельцов.jpg" alt="Павел Андреевич Дельцов">
+                            </div>
+                        </div>
+                        <div class="history-info">
+                            <div class="history-description">
+                                <p>С 2014 года областное государственное бюджетное профессиональное образовательное
+                                    учреждение профессиональный лицей № 1 г. Иваново переименован в областное
+                                    государственное бюджетное профессиональное образовательное учреждение Ивановский
+                                    железнодорожный колледж, в котором осуществляется непрерывное профессиональное
+                                    образование квалифицированных рабочих и служащих для предприятий железнодорожного
+                                    транспорта.
+                                </p>
+                            </div>
+                            <div class="history-image">
+                                <img src="../img/history/Открытие+мемориальной+доски.jpg"
+                                    alt="Открытие мемориальной доски">
+                            </div>
+                        </div>
+                        <a class="history-button"
+                            href="https://ivpl1.ru/documents/11860244/0/Боевой%2Bлисток%2Bот%2BИЖК%2B%282%29.pdf/327eea13-1a14-a124-1731-51500695ebc1?t=1701944552995">
+                            Боевой листок</a>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+
+        <section class="razduvalov toggle" id="razduvalov" style="display: none">
+            <div class="razduvalov container">
+                <h2>Династия Раздуваловых</h2>
+                <section>
+                    <div class="history-container">
+                        <div class="history-info">
+                            <div class="history-description">
+                                <p>Раздувалов Владимир Никитич – основатель династии. Родился в г. Данилов
+                                    Ярославской области
+                                    Работал слесарем-лекальщиком высшей квалификации. Воспитал сыновей: Михаила,
+                                    Николая, Валентина.</p>
+                            </div>
+                            <div class="history-image">
+                                <img src="../img//razduvalov/Дед ВЛАДИМИР 001.jpg" alt="Раздувалов Владимир Никитич">
+                            </div>
+                        </div>
+                        <div class="history-info">
+                            <div class="history-description">
+                                <p>Николай Владимирович: работал в паровозном депо в г. Данилове слесарем-
+                                    ремонтником.
+                                    Погиб в августе 1941г. в г. похоронен в братской могиле.</p>
+                            </div>
+                            <div class="history-image">
+                                <img src="../img//razduvalov/Николай погиб 1941.jpg"
+                                    alt="Раздувалов Николай Владимирович">
+                            </div>
+                        </div>
+                        <div class="history-info">
+                            <div class="history-description">
+                                <p>Валентин Владимирович: машинист паровоза. Участвовал в подготовке обороны
+                                    Сталинграда на Ворошиловском фронте, был ранен. В 1947 году пришел с фронта. С
+                                    1949года до 1979 года- машинист паровоза, тепловоза.</p>
+                            </div>
+                            <div class="history-image">
+                                <img src="../img/razduvalov/валентин машинист тепловоза на ж.д с 1947г.jpg"
+                                    alt="Раздувалов Валентин Владимирович">
+                            </div>
+                        </div>
+                        <div class="history-info">
+                            <div class="history-description">
+                                <p>С 2007 года работает в ОГБПОУ Ивановском железнодорожном колледже преподавателем
+                                    спецдисциплин. Награжден Почетными грамотами ОАО РЖД, а в 1994 году золотыми
+                                    часами за безаварийность в работе.</p>
+                            </div>
+                            <div class="history-image">
+                                <img src="../img/razduvalov/017.jpg" alt="Раздувалов Валентин Владимирович">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="../scripts/script.js"></script>
+<script src="../scripts/slider.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>
